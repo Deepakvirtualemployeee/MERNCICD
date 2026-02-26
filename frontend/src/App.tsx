@@ -86,7 +86,7 @@ function App() {
         </label>
 
         <label>
-          <span>Email</span>
+          <span>Email Address</span>
           <input
             type="email"
             value={email}
