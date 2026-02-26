@@ -15,4 +15,4 @@ jobs:
             docker stop backend || true
             docker rm backend || true
             docker build -t backend .
-            docker run -d -p 5000:4000 --env-file .env backend
+            docker run -d --name backend  -p 5000:4000 --env-file .env backend
