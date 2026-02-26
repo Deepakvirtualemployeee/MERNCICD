@@ -97,7 +97,7 @@ function App() {
         </label>
 
         <label>
-          <span>Password</span>
+          <span>PWD</span>
           <input
             type="password"
             value={password}

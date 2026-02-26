@@ -11,7 +11,7 @@ jobs:
           username: ${{ secrets.EC2_USER }}
           key: ${{ secrets.SSH_KEY }}
           script: |
-            cd <repo>/frontend
+            cd MERNCICD/frontend
             docker stop frontend || true
             docker rm frontend || true
             docker build -t frontend .
